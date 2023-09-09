@@ -44,10 +44,9 @@ h1 {
  }
  h3 {
     text-align: center;
-    column-span: none;
+    column-span: all;
  }
  .photo {
-    break-inside: avoid;
-    padding-left: 130px;
-    
+    column-span: all;
+    text-align: center;
  }
