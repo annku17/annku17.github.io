@@ -1,5 +1,6 @@
 body {
     background-color:#FDF2E9;
+    margin-top:0;
 }
 h1 {
     font-family: 'THSarabunNewRegular';
@@ -30,5 +31,23 @@ h1 {
  .story {
     font-family: 'THSarabunNewRegular';
     font-size: 20px;
+    text-align: left;
+    column-count: 2;
+    margin-top:0;
+    column-width: 100px;
+    column-gap: 30px;
+    column-rule: 1px solid black;
+    margin-top:10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+ }
+ h3 {
     text-align: center;
+    column-span: none;
+ }
+ .photo {
+    break-inside: avoid;
+    padding-left: 130px;
+    
  }
