@@ -1,9 +1,34 @@
+body {
+    background-color:#FDF2E9;
+}
 h1 {
-    font-family: 'PetitFormalScriptRegular';
+    font-family: 'THSarabunNewRegular';
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top:0;
+    margin-bottom: 15px;
+    padding-top:10px;
+    padding-bottom:10px;
+ }
+ div {
+    background-image: url("16.jpg");
+    border-radius: 30px;
+    padding: 20px;
+ }
+ section {
+    font-family: 'THSarabunNewRegular';
     font-weight: normal;
     font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+    text-align:center;
+    margin-left: 50px;
+    margin-bottom: 10px;
+ }
+ .story {
+    font-family: 'THSarabunNewRegular';
+    font-size: 20px;
     text-align: center;
-    margin-left: 50%;
-    margin-top: 15%;
-    margin-bottom: 15%;
  }
